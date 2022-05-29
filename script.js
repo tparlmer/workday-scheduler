@@ -4,7 +4,7 @@ var currentTime = moment();
 
 displayTime.textContent = currentTime.format("dddd, MMMM Do")
 
-$(".saveBtn").on("click", funtion() {
+$(".saveBtn").on("click", function() {
     var value = $(this).signlings(".description").val();
     var time = $(this).parent().attr("id");
 
@@ -69,7 +69,6 @@ if (currentHour < hour9) {
 } else if (currentHour = 9) {
     $("#10am-text").addClass("present");
 }
-
 
 //11am
 if (currentHour < hour9) {

@@ -53,19 +53,83 @@ var hour5 = 17;
 var currentHour = moment().format('H');
 
 //9am
+if (currentHour < hour9) {
+    $("#9am-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#9am-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#9am-text").addClass("present");
+}
 
 //10am
+if (currentHour < hour9) {
+    $("#10am-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#10am-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#10am-text").addClass("present");
+}
+
 
 //11am
+if (currentHour < hour9) {
+    $("#11am-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#11am-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#11am-text").addClass("present");
+}
 
 //12pm
+if (currentHour < hour9) {
+    $("#12pm-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#12pm-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#12pm-text").addClass("present");
+}
 
 //1pm
+if (currentHour < hour9) {
+    $("#1pm-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#1pm-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#1pm-text").addClass("present");
+}
 
 //2pm
+if (currentHour < hour9) {
+    $("#2pm-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#2pm-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#2pm-text").addClass("present");
+}
 
 //3pm
+if (currentHour < hour9) {
+    $("#3pm-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#3pm-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#3pm-text").addClass("present");
+}
 
 //4pm
+if (currentHour < hour9) {
+    $("#4pm-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#4pm-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#4pm-text").addClass("present");
+}
 
 //5pm
+if (currentHour < hour9) {
+    $("#5pm-text").addClass("future");
+} else if (currentHour > hour9) {
+    $("#5pm-text").addClass("past");
+} else if (currentHour = 9) {
+    $("#5pm-text").addClass("present");
+}
